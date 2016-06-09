@@ -5,7 +5,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-error_reporting();
+error_reporting(0);
 session_start();
 if (isset($_SESSION['todo_name'])) {
     $session_name = $_SESSION['todo_name'];
